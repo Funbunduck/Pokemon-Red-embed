@@ -1,0 +1,35 @@
+html,
+body {
+  width: 400px;
+  height: 709px;
+  min-width: 400px;
+  min-height: 709px;
+  max-width: 400px;
+  max-height: 709px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-app-region: drag;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+::selection {
+  background: transparent;
+}
+
+.fixed-menu-button {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
